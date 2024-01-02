@@ -1,0 +1,33 @@
+.card-item{
+    position: relative;
+}
+
+.card-status{
+    position:absolute;
+    top:5px;
+    right:5px;
+    font-weight: 600;
+}
+.text-green{
+    color:rgb(93, 224, 93);
+    /* background: rgb(156, 227, 156); */
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.button{
+     background-color: #B9D9EB;
+     padding: 10px;
+     border-radius: 8px;
+     font-size: medium;
+     font-weight: 500;
+     border: none;
+     color:rgb(62, 61, 61);
+}
+.button-div{
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-right: 3px;
+}

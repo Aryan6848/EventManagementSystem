@@ -1,0 +1,48 @@
+.input-field {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  
+  .addProductButton{
+     
+    width: 50%;
+    padding:10px;
+    background-color: #23d364;
+    color: #fff;
+    border: none;
+    border-radius: 5px ;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+  }
+  .addProductButton:hover{
+    
+    background-color: #09702c;
+  }
+
+  .product{
+    width:300px;
+    display:flex;
+    flex-direction:column;
+   margin:auto;
+    
+   padding:20px;
+   background-color: #fff;
+   
+   border-radius:10px;
+   box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+   
+   align-items: center;
+   position:absolute;
+   top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width:100%;
+  
+  }

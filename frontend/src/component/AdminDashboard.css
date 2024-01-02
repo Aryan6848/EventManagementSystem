@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&family=Gabarito&family=Ubuntu&display=swap');
+
+.product-list {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.product-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-list ul li {
+    border: 1.5px solid skyblue;
+    padding: 5px;
+    width: 150px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-height: 50px; /* Change the min-height value as needed */
+    font-family: 'Edu SA Beginner', cursive;
+    /* Include other font families if necessary */
+}
+
+.search-product-box {
+    width: 400px;
+    margin: 20px;
+    height: 40px;
+    border: 2px solid skyblue;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+    /* Include other font families if necessary */
+}
+
+.delete-button,
+.update-button {
+    background-color: rgb(173, 240, 73);
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+}
